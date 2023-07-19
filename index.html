@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        form
+        {
+            width:600px;
+            height:400px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 2px solid white;
+            color: white;
+        }
+    </style>
+</head>
+<body style="background-color: #212121;">
+    <form>
+        <label for="fname">Enter First Name</label>
+        <input type="text" name="firstname" id="fname">
+        <br>
+        <label for="lname">Enter Last Name</label>
+        <input type="text" name="lastname" id="lname">
+        <br>
+        <label for="ufile">Add Files</label>
+        <input type="file" name="myFiles" id="ufile">
+    </form>
+</body>
+</html>
